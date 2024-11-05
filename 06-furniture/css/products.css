@@ -1,0 +1,27 @@
+/** ----------------------------------
+main
+---------------------------------- **/
+.item-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 35px;
+}
+@media screen and (max-width: 900px) {
+  .item-list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+.page {
+  display: inline-block;
+  font-size: 14px;
+  padding: 40px 20px;
+}
+@media screen and (max-width: 900px) {
+  .page {
+    margin-bottom: 60px;
+  }
+}/*# sourceMappingURL=products.css.map */

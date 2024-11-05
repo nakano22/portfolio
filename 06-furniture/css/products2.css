@@ -1,0 +1,15 @@
+/** ----------------------------------
+main
+---------------------------------- **/
+.item-list {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 35px;
+}
+@media screen and (max-width: 900px) {
+  .item-list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+  }
+}/*# sourceMappingURL=products2.css.map */
