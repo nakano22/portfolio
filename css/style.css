@@ -270,10 +270,10 @@ mainvisual
   animation: img-change 12s infinite;
 }
 .mainvisual .src1 {
-  background-image: url(/img/DSC_3484.JPG);
+  background-image: url(../img/mainvisual-1.JPG);
 }
 .mainvisual .src2 {
-  background-image: url(/img/DSC_4702.JPG);
+  background-image: url(../img/mainvisual-2.JPG);
 }
 @keyframes img-change {
   0% {
