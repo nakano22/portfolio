@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #24292E;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 960px;
+  padding: 0 4%;
+  margin: 0 auto 130px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+/* header */
+.header {
+  height: 270px;
+  padding: 0 4%;
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-li {
+  font-size: 0.9rem;
+  margin-left: 30px;
+}
+
+.insta img {
+  width: 20px;
+  height: 20px;
+}
+
+/* mainvisual */
+.mainvisual {
+  width: 100%;
+  max-width: 1920px;
+  height: 420px;
+  margin-bottom: 80px;
+  object-fit: cover;
+}
+
+/* About */
+.about p {
+  margin-bottom: 30px;
+}
+
+/* Works */
+.works-ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.works-li {
+  text-align: center;
+}
+
+.works-ul img {
+  width: 264px;
+  margin-bottom: 23px;
+}
+
+/* News */
+.news-dl-wrapper {
+  display: flex;
+  padding: 20px 0;
+  gap: 0 20px;
+  border-bottom: 1px solid #C8C8C8;
+}
+
+.news-dl-wrapper:first-child {
+  border-top: 1px solid #C8C8C8;
+}
+
+.news-dt {
+  font-weight: normal;
+}
+
+/* Contact */
+.contact-form {
+  width: 100%;
+}
+
+.form-item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-lbl {
+  width: 15%;
+}
+
+.form-input {
+  width: 85%;
+  padding: 10px 0;
+  border: 1px solid #C8C8C8;
+}
+
+.submit-btn {
+  width: 200px;
+  height: 53px;
+  background-color: #24292E;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* footer */
+.footer {
+  background-color: #24292E;
+  padding: 22px 0;
+}
+
+.footer-copyright {
+  font-size: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (max-width:600px) {
+
+  .wrapper {
+    margin-bottom: 70px;
+  }
+
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  .works-ul {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .works-ul img {
+    width: 100%;
+  }
+
+  .news-dl-wrapper {
+    display: block;
+  }
+
+  .form-item {
+    flex-direction: column;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+
+  .submit-btn {
+    margin: 0 auto;
+  }
+}
