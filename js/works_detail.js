@@ -34,6 +34,5 @@ window.addEventListener('scroll', () => {
     if (scroll + windowHeight > distance) {
       item.classList.add('fade');
     }
-    console.log(distance);
   });
 });
